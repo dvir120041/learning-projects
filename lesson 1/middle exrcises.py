@@ -30,11 +30,3 @@ from collections import defaultdict
 # for letter in str1:
 #   my_dict[letter] = my_dict.get(letter, 0) + 1
 # print(my_dict)
-#seventh exrcise
-a="abc"
-b="xyz"
-print(a + " " + b)
-c=a(string)
-d=b(string)
-c[1]=d[1]
-d[1]=c[1]
