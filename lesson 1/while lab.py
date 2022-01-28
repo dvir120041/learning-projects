@@ -42,3 +42,7 @@ while(1==1):
         if(boolean=="true"):
             sleep(2)
             print("we tried 10 times, game is over")
+
+    check=input("do you want to continue? y/n")
+    if(check=="n"):
+        break
