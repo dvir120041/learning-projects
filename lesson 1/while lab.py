@@ -3,10 +3,7 @@ from time import sleep
 while(1==1):
     a=input("welcome to the menu, please choose a number between 1 - 3")
     if(a=="1"):
-        n=1
-        print(n)
-        while n in range(100):
-            n=n+1
+        for n in range(1,101):
             print(n)
     elif(a=="2"):
         print("please enter 5 numbers and we will check if they create a fibo list")
